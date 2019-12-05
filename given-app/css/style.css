@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    body{font-size: 14px;}
+    p {line-height: 150%;}
+    hr {margin:5px 0;}
+    h2 {font-size:25px;}
+    h3 {font-size:20px;}
+}
+
+@media (min-width: 768px, max-width: 1024px){
+  body{font-size: 16px;}
+  p {line-height: 125%;}
+}
+
+@media (min-width: 1024px) {
+    body{font-size: 18px;}
+    p {line-height: 200%;}
+}
+
+
+
+
