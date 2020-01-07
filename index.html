@@ -1,170 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
-
     <title>Wiktor Starzyk</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
   </head>
 
-    <body>
-
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+    <body class="d-flex flex-column h-100">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container">
             <a class="navbar-brand" href="#">Wiktor Starzyk</a>
-          </div><!-- /.navbar-header -->
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="publications.html">Publications</a></li>
-              <li><a href="cv.html">CV</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div><!--/.navbar-collapse -->
-        </div> <!-- .container -->
-      </div> <!-- .navbar -->
-
-      <!-- Begin page content -->
-
-      <div class="container-home container" id="content">
-
-
-        <div id="my_carousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#my_carousel" data-slide-to="1"></li>
-            <li data-target="#my_carousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="images/slide1.png" alt="slide 1">
-              <div class="carousel-caption">
-                <h3>Virtual Vision Simulator</h3>
-                <p>Can be dowloaded at <a href="https://github.com/vclab">https://github.com/vclab</a></p>
-              </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
             </div>
-            <div class="item">
-              <img src="images/camsim.png" alt="slide 2">
-              <div class="carousel-caption">
-                <h3>CamSim</h3>
-                <p>Our camera network simulator is coming soon!</p>
-              </div>
-            </div>
+          </div> 
+        </nav>
+    </header>
 
-            <div class="item">
-              <img src="images/slide3.png" alt="slide 3">
-              <div class="carousel-caption">
-                <h3>Masters Thesis</h3>
-                <p>Successfully defended my masters thesis on October 3rd, 2014.
-              </div>
-            </div>
-    
-          </div>
+    <!-- Begin page content -->
+      <main role="main" class="flex-shrink-0">
+          <div class="container pt-5">
+            <h2>Home</h2>
+              <p>
+                Hi, my name is Wiktor Starzyk. I'm an independant iOS Developer from <a href="https://www.google.com/maps/place/Oshawa,+ON/@43.9482713,-79.0184327,11z/data=!3m1!4b1!4m5!3m4!1s0x89d51d21ccd37533:0xdd8ceff2f844fcbf!8m2!3d43.8970929!4d-78.8657912">Oshawa, ON, Canada</a>. I have a Masters degree in Computer Science from <a href="http://ontariotechu.ca">Ontario Tech</a>.
+              </p>
+          </div> 
+      </main>    
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#my_carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#my_carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-md-4">
-          <img class="img-rounded" src="images/vvs_icon.png" alt="VVS icon" style="width: 140px; height: 140px;">
-          <h3>Virtual Vision Simulator</h3>
-          <p>
-            Simulate camera networks inside a virtual world while using the same computer vision routines that are used on real video footage.
-          </p>
-          <p>
-            <a class="btn btn-default" href="http://elf.science.uoit.ca/~faisal/projects/vvs/" role="button">View details</a>
-          </p>
+      <footer class="footer mt-auto py-3">
+        <div class="container">
+          <p class="text-muted credits text-center">Copyright © 2014 - 2020 Wiktor Starzyk. All Rights Reserved. </p>
         </div>
+      </footer>
 
-        <div class="col-md-4">
-          <img class="img-rounded" src="images/camsim_icon.png" alt="CamSim icon" style="width: 140px; height: 140px;">
-          <h3>CamSim</h3>
-          <p>
-            Create and tweak camera networks quickly and easily to test camera networks research.
-          </p>
-          <p>
-            <a class="btn btn-default" href="#" role="button">Coming Soon!</a>
-          </p>
-        </div>
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-      </div>
-
-      </div>
-
-      <!-- End page content -->
-
-    </div> <!-- #wrap -->
-
-    <div id="footer">
-      <div class="container">
-        <div class="social-buttons">
-                        <ul class="list-inline">
-<!--                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li> -->
-                            <li>
-                                <a href="http://twitter.com/wiktorstarzyk" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://www.youtube.com/wiktorstarzyk" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://www.linkedin.com/pub/wiktor-starzyk/23/546/244" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/wiktorstarzyk" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://bitbucket.org/wiktorstarzyk" class="btn-social btn-outline"><i class="fa fa-fw fa-bitbucket"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-      </div>
-    </div>
-     <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
