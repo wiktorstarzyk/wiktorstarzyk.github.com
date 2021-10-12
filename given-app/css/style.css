@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     body{font-size: 14px;}
     p {line-height: 150%;}
     hr {margin:5px 0;}
@@ -14,14 +14,51 @@
 @media (min-width: 1024px) {
     body{font-size: 18px;}
     p {line-height: 200%;}
+}*/
+
+
+
+.container {
+  max-width: 1000px;
 }
 
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+
+/*
+ * My Stuff
+ */
 .footer {
   background-color: #f5f5f5;
 }
 
 .credits {
   font-size: 12px;
+}
+
+.roundedContainer {
+  border-radius: 18px;
+  /*padding: 20px; */
+}
+
+.bg-light {
+  background-color: #FAFAF9;
+}
+
+.bg-appColor {
+  background-color: #C90000;
 }
 
 
