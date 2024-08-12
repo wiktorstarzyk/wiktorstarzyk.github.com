@@ -60,6 +60,10 @@ h3.cv{
   padding-top:0px;
 }
 
+h5.card-title {
+  margin-top: 8px;
+}
+
 .pdf{
   color:red;
 }
