@@ -89,9 +89,13 @@ h5.card-title {
 }
 
 .marketing .col-md-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
   line-height: 150%;
 /*  font-weight: 300;
   font-size: 15px;*/
+}
+
+.card-text {
+  text-align: left;
 }
